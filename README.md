@@ -1,6 +1,6 @@
 
 
-1. 제목 
+## 1. 제목 
 
 
 (h1)부터 (h6)까지 제목을 표현 (글머리)
@@ -40,7 +40,7 @@
 >	code
 >	```
 
-## 2. 목록
+## 3. 목록
 ### ● 순서있는 목록(번호)
 순서있는 목록은 숫자와 점을 사용한다.
 ```
@@ -62,10 +62,10 @@
 3. 세번째
 2. 두번째
 
-## 3 강조
+## 3. 강조
 ```
-*single asterisks*
-_single underscores_
+*별표*
+_밑줄_
 **double asterisks**
 __double underscores__
 ++underline++
