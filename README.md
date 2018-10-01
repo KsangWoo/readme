@@ -22,13 +22,58 @@
 제목 2
 ------
 
-1
 
 
-2. 강조
+## 2. BlockQuote
+이메일에서 사용하는 ```>``` 블럭인용문자를 이용한다.
+```
+> This is a blockqute.
+```
+> This is a first blockqute.
+>	> This is a second blockqute.
+>	>	> This is a third blockqute.
 
-이텔릭체는 *별표(asterisks)* 혹은 _언더바(underscore)_를 사용하세요.
-두껍게는 **별표(asterisks)** 혹은 __언더바(underscore)__를 사용하세요.
-**_이텔릭체_와 두껍게**를 같이 사용할 수 있습니다.
-취소선은 ~~물결표시(tilde)~~를 사용하세요.
-<u>밑줄</u>은 `<u></u>`를 사용하세요.
+이 안에서는 다른 마크다운 요소를 포함할 수 있다.
+> ### This is a H3
+> * List
+>	```
+>	code
+>	```
+
+## 2. 목록
+### ● 순서있는 목록(번호)
+순서있는 목록은 숫자와 점을 사용한다.
+```
+1. 첫번째
+2. 두번째
+3. 세번째
+```
+1. 첫번째
+2. 두번째
+3. 세번째
+
+**현재까지는 어떤 번호를 입력해도 순서는 내림차순으로 정의된다.**
+```
+1. 첫번째
+3. 세번째
+2. 두번째
+```
+1. 첫번째
+3. 세번째
+2. 두번째
+
+## 3 강조
+```
+*single asterisks*
+_single underscores_
+**double asterisks**
+__double underscores__
+++underline++
+~~cancelline~~
+```
+*single asterisks*
+_single underscores_
+**double asterisks**
+__double underscores__
+++underline++
+~~cancelline~~
