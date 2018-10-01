@@ -71,7 +71,7 @@ __double underscores__
 ++underline++
 ~~cancelline~~
 
-### ● 순서없는 목록(글머리 기호)
+### 4. 순서없는 목록(글머리 기호)
 ```
 * 빨강
   * 녹색
@@ -109,3 +109,30 @@ __double underscores__
     - 2단계
     	+ 3단계
 			= 4단계
+
+
+## 5. 코드```<pre><code></code></pre>```
+4개의 공백 또는 하나의 탭으로 들여쓰기를 만나면 변환되기 시작하여 들여쓰지 않은 행을 만날때까지 변환이 계속된다.
+
+
+
+```
+This is a normal paragraph:
+
+    This is a code block.
+end code block.
+```
+
+<code>
+```
+This is a normal paragraph:
+    This is a code block.
+end code block.
+```
+</code>
+
+
+This is a normal paragraph:
+
+    This is a code block.
+end code block.
